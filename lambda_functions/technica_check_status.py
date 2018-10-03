@@ -56,11 +56,8 @@ def lambda_handler(event, context):
                 with request.urlopen(req, data) as f:
                     print("Twilio returned {}".format(str(f.read().decode('utf-8'))))
             except Exception as e:
-                print (e)
-                # something went wrong!
-                # return {"statusCode":400, "body": "Malformed number."}
+                return {"statusCode":400, "body": "Malformed number."}
                 # Integration response in API gateway matches error message with regex and link it to specific HTTP status code
-                raise Exception('Error. Invalid input: Malformed number.')
 
             
             response = table.update_item(
@@ -77,9 +74,7 @@ def lambda_handler(event, context):
             return {"statusCode":200, "body": "SMS Successfully sent."}
 
         else:
-            # return {"statusCode":400, "body": "Given number does not exist."}
-            raise Exception('Error. Invalid input: Given number does not exist.')
+            return {"statusCode":400, "body": "Given number does not exist."}
 
     else:
-        # return {"statusCode":400, "body": "Given number does not exist."}
-        raise Exception('Error. Invalid input: Given number does not exist.')
+        return {"statusCode":400, "body": "Given number does not exist."}
