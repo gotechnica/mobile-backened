@@ -58,7 +58,7 @@ def lambda_handler(event, context):
             except Exception as e:
                 # return {"statusCode":400, "body": "Malformed number."}
                 # Integration response in API gateway matches error message with regex and link it to specific HTTP status code
-                raise Exception('Error. Invalid input: Given number does not exist.')
+                raise Exception('Error. Invalid input: Malformed number')
             
             response = table.update_item(
                 Key={
