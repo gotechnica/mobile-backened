@@ -1,0 +1,39 @@
+Day (MUST BE IN ORDER),"Title (UNDER NO CIRCUMSTANCES MAY YOU CHANGE THE ORDER OF EVENTS IN THE FILE. ANY ADDED EVENTS SHOULD BE APPENDED TO THE BOTTOM, DO NOT MOVE EVENTS EVEN WHEN YOU CHANGE THE TIME)",Start Date,Start Hour,Start Min,AM/PM,START,End date,End Hour,End Min,AM/PM,END,Location,Description,Best for Beginners,Image Name
+Saturday,Participant Check-in,11/10/2018,8,0,AM,11/10/2018 8:00:00,11/10/2018,10,0,AM,11/10/2018 10:00:00,Armory Entrance,,No,banner_checkin
+Saturday,Breakfast,11/10/2018,8,30,AM,11/10/2018 8:30:00,11/10/2018,10,0,AM,11/10/2018 10:00:00,Armory,"First meal of the day
+Fuel that invigorates you
+Start the day off strong!
+",No,banner_food
+Saturday,Sponsorship Fair,11/10/2018,9,0,AM,11/10/2018 9:00:00,11/10/2018,10,0,AM,11/10/2018 10:00:00,Armory,,No,banner_sponsorship
+Saturday,Opening Ceremony,11/10/2018,10,0,AM,11/10/2018 10:00:00,11/10/2018,11,0,AM,11/10/2018 11:00:00,Armory,#LightTheWay,Yes,banner_generic
+Saturday,Hacking Begins,11/10/2018,11,0,AM,11/10/2018 11:00:00,11/10/2018,12,0,PM,11/10/2018 12:00:00,Armory,,No,banner_generic
+Saturday,Team Formation,11/10/2018,11,0,AM,11/10/2018 11:00:00,11/10/2018,12,0,PM,11/10/2018 12:00:00,Armory,"Time to make new friends
+Work and support each other
+Power in numbers",Yes,banner_fun
+Saturday,Lunch,11/10/2018,12,0,PM,11/10/2018 12:00:00,11/10/2018,1,30,PM,11/10/2018 13:30:00,Armory,"I know you're hungry
+So come join us for some lunch
+Lovely Sbarro",No,banner_food
+Saturday,Dinner,11/10/2018,6,0,PM,11/10/2018 18:00:00,11/10/2018,8,0,PM,11/10/2018 20:00:00,Armory,"There's no better way
+To end a hard-working day
+Than with Chick-fil-A",No,banner_food
+Saturday,Late Night Snack,11/10/2018,10,0,PM,11/10/2018 22:00:00,11/10/2018,11,0,PM,11/10/2018 23:00:00,Armory,"Our famous ice cream
+A cool, delectable treat
+Maryland Dairy",No,banner_food
+Sunday,Breakfast,11/11/2018,9,0,AM,11/11/2018 9:00:00,11/11/2018,11,0,AM,11/11/2018 11:00:00,Armory,"We have some bagels
+Some muffins and some doughnuts
+So you'll rock this day!",No,banner_food
+Sunday,Demo Training,11/11/2018,10,0,AM,11/11/2018 10:00:00,11/11/2018,11,0,AM,11/11/2018 11:00:00,Armory,"First time or veteran
+Come learn how to rock demos
+Showcase your hard work!
+",Yes,banner_workshop
+Sunday,Hacking Done,11/11/2018,11,0,AM,11/11/2018 11:00:00,11/11/2018,11,0,AM,11/11/2018 11:00:00,Armory,,No,banner_generic
+Sunday,Lunch,11/11/2018,11,0,AM,11/11/2018 11:00:00,11/11/2018,1,0,PM,11/11/2018 13:00:00,Armory,"Subway sandwiches
+Scrumptious, savory, saucy
+A perfect last meal
+",No,banner_food
+Sunday,Demos,11/11/2018,12,0,PM,11/11/2018 12:00:00,11/11/2018,1,30,PM,11/11/2018 13:30:00,Armory,,Yes,banner_demos
+Sunday,Closing Ceremony,11/11/2018,1,30,PM,11/11/2018 13:30:00,11/11/2018,2,30,PM,11/11/2018 14:30:00,Armory,,Yes,banner_generic
+Sunday,Begin Boarding Buses,11/11/2018,3,45,PM,11/11/2018 15:45:00,11/11/2018,4,0,PM,11/11/2018 16:00:00,Armory,,No,banner_generic
+Sunday,Buses Depart,11/11/2018,4,0,PM,11/11/2018 16:00:00,11/11/2018,4,0,PM,11/11/2018 16:00:00,Armory,"Our final farewell
+Buses depart right at 4
+We'll see you next year!!",No,banner_generic

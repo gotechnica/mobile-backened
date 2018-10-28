@@ -33,11 +33,11 @@ fs.readFile(scheduleFile, 'utf8', (err, data) => {
      let line = lines[i];
      fields = line.split(",")
      eventObj = {
-         "beginnerFriendly" : false,
+         "beginnerFriendly" : (fields[14] == "Yes" ? true : false),
          "description" : fields[13],
          "endTime" : moment(fields[11], "M/D/YYYY HH:mm:ss").format("YYYY-MM-DD HH:mm"),
          "eventID" : (100000 + i).toString(),
-         "img" : "banner_food",
+         "img" : fields[15],
          "location" : fields[12],
          "startTime" : moment(fields[6], "M/D/YYYY HH:mm:ss").format("YYYY-MM-DD HH:mm"),
          "title" : fields[1]
