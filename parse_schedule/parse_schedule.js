@@ -21,16 +21,10 @@ fs.readFile(scheduleFile, 'utf8', (err, data) => {
    //console.log(data);
    data = data.replace(/"/g, "");
    let lines = data.split("\r\n");
-   //console.log(lines);
-   //example = lines[12].split(',');
-
-   // for(let i = 0; i < example.length; i++){
-   //   console.log (i.toString() + " => " + example[i]);
-   // }
-
 
    for(let i = 1; i < lines.length; i++){
      let line = lines[i];
+     // split column by comma
      fields = line.split(",")
      eventObj = {
          "beginnerFriendly" : (fields[14] == "Yes" ? true : false),
@@ -52,7 +46,7 @@ fs.readFile(scheduleFile, 'utf8', (err, data) => {
    out = out.replace(/}"/g, "}");
    out = out.replace(/\\\"/g, "\""); // replace \" with just "
    out = out.replace(/\\\\n/g, "\\n"); // replace \\n with \n
-   out = out.replace(/-_-/g, ","); // replace -_- with ,
+   out = out.replace(/-_-/g, ","); // replace -_- with , (to avoid conflict with comma separated columns)
    out = out.replace(/,"/g, ",\n\"")
    fs.writeFileSync('scheduleOutput.json', out);
  }
