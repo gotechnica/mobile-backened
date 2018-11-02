@@ -22,7 +22,7 @@ fs.readFile(scheduleFile, 'utf8', (err, data) => {
    data = data.replace(/"/g, "");
    let lines = data.split("\r\n");
    //console.log(lines);
-   example = lines[12].split(',');
+   //example = lines[12].split(',');
 
    // for(let i = 0; i < example.length; i++){
    //   console.log (i.toString() + " => " + example[i]);
@@ -52,6 +52,7 @@ fs.readFile(scheduleFile, 'utf8', (err, data) => {
    out = out.replace(/}"/g, "}");
    out = out.replace(/\\\"/g, "\""); // replace \" with just "
    out = out.replace(/\\\\n/g, "\\n"); // replace \\n with \n
+   out = out.replace(/-_-/g, ","); // replace -_- with ,
    out = out.replace(/,"/g, ",\n\"")
    fs.writeFileSync('scheduleOutput.json', out);
  }
